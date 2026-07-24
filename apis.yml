@@ -1,8 +1,14 @@
 aid: cheggcom
 name: Chegg.com
-description: 'Chegg.com is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: education. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Chegg, Inc. is a US-based education technology company that provides
+  direct-to-student learning services on a subscription basis, including homework
+  and expert Q&A help, step-by-step textbook and problem solutions, textbook rental
+  and purchase, online tutoring, writing and citation tools, math and science solvers,
+  and AI-assisted study support. Surfaced as a portfolio company of Insight Partners
+  and added to the API Evangelist network for enrichment. As of this enrichment pass
+  Chegg publishes a consumer web and mobile product but no public developer portal,
+  documented API, OpenAPI specification, SDKs, or MCP server; this profile therefore
+  captures its public web identity and domain-security posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/cheggcom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.google.com/s2/favicons?domain=chegg.com&sz=128
 tags:
 - Company
 - Education
+- EdTech
+- Learning
+- Students
+- Homework Help
+- Tutoring
+- Textbooks
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: http://www.chegg.com/
+- type: HelpCenter
+  url: https://help.chegg.com/
+- type: Blog
+  url: https://www.chegg.com/press/
+- type: TermsOfService
+  url: https://www.chegg.com/termsofuse/
+- type: PrivacyPolicy
+  url: https://www.chegg.com/privacypolicy/
+- type: DomainSecurity
+  url: security/cheggcom-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
