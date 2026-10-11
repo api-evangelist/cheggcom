@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "cheggcom",
+    "captured_at": "2026-10-11T184344",
+    "source_url": "http://www.chegg.com/",
+    "source_type": "Website",
+    "file": "cheggcom-2026-10-11T184344.png",
+    "bytes": 26519,
+    "capture": "playwright-local"
+  }
+]
